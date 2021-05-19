@@ -26,7 +26,7 @@ request(apiUrl, (err, res, body) => {
     -Humidade: ${weather.main.humidity}%
   `
 
-  return console.log(data)
+  return data
 })
 
 const http = require('http');
